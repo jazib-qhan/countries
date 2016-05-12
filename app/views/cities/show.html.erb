@@ -1,0 +1,17 @@
+<table border="1" bgcolor="white" bordercolor="green" width="500" height="100" p align="left">
+
+  <th align="left">Id<p align="center">&emsp;&emsp; &emsp;</th>
+  <th align="left">Name<p align="center">&emsp;</th>
+
+
+  <% @state_cities.each do |city| %>
+
+
+      <tr>
+        <td colspan="1" bgcolor=""> <%= city.id %>  </td>
+        <td colspan="1" bgcolor=""> <%= city.cities %></td>
+      </tr>
+  <% end %>
+
+
+</table>

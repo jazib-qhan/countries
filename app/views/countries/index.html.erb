@@ -1,0 +1,23 @@
+<table border="1" bgcolor="white" bordercolor="green" width="500" height="100" p align="left">
+
+  <th align="left">Id<p align="center">&emsp;&emsp; &emsp;</th>
+  <th align="left">Country<p align="center">&emsp;</th>
+
+  <th align="left">States<p align="center">&emsp;</th>
+
+
+
+
+
+  <% @countries.each do |countries| %>
+
+
+      <tr>
+        <td colspan="1" bgcolor=""> <%= countries.id %>  </td>
+        <td colspan="1" bgcolor=""> <%= countries.countries %></td>
+        <td colspan="1" bgcolor=""><a href="/states/<%= countries.id %>">Show</a></td>
+      </tr>
+  <% end %>
+
+
+</table>

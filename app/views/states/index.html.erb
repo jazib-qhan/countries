@@ -1,0 +1,26 @@
+<table border="1" bgcolor="white" bordercolor="green" width="500" height="100" p align="left">
+
+  <th align="left">Id<p align="center">&emsp;&emsp; &emsp;</th>
+  <th align="left">States<p align="center">&emsp;</th>
+
+  <th align="left">cities<p align="center">&emsp;</th>
+
+
+
+
+
+   <%@states.each do|states| %>
+
+
+      <tr>
+   <td colspan="1" bgcolor=""> <%=states.id%>  </td>
+        <td colspan="1" bgcolor=""> <%=states.states%>  </td>
+
+
+
+       <td colspan="1"bgcolor=""><a href="/countries/">Show</a></td>
+   </tr>
+         <%end%>
+
+
+    </table>
